@@ -5,12 +5,11 @@
 	<title>HTML Learn</title>
     <h1>
         <p id="text_1" >
-            this is a text test
         </p>
-
+        运营商还是封了我的80端口
     </h1>
     <script>
-        window.alert("进入登陆页面");
+        window.alert("要点确定哦！！");
         if (window.confirm("默认登陆账号：admin,密码：1234")) 
         {
             window.alert("若更改账号密码，请联系管理员");
@@ -19,15 +18,15 @@
         {
             while (1) 
             {
-                window.alert("你已取消登陆！请退出页面！");
+                window.alert("点取消干嘛，你现在退不出去了");
             }
         }
-        document.getElementById("text_1").innerHTML = "this is a text test 2";
+        document.getElementById("text_1").innerHTML = "哟，他点进来了";
     </script>
     <form action="" method="post">
-        <h1>
-            登录页面:{{name}}
-        </h1>
+        <h2>
+            登录页面:{name}
+        </h2>
         <br>
         账号：
         <input type="text" name="name">

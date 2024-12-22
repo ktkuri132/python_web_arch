@@ -15,4 +15,4 @@ def index():
         else:
             abort(401)
 if __name__ == '__main__':
-    app.run(host=lib.get_ipv6_address(),port=81)
+    app.run(host=lib.get_ipv6_address(),port=80)
